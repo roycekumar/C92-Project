@@ -1,0 +1,107 @@
+body
+{
+	background:url("background.jpg");
+}
+.login_div1
+	{
+		background:white;
+		padding:10px;
+		float:none;
+		border-radius:15px;
+	}
+.login_div2	{
+		background: white;
+		float: none;
+		padding: 10px;
+		border-radius: 15px;
+		display: none;
+	}
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+	border-radius: 0%;
+}
+#player1_score{
+	font-size: 19px;
+}
+#player2_score{
+	font-size: 19px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid rgba(235,44,227,1);
+border-bottom: solid rgba(235,44,227,1);
+border-left: solid rgba(235,44,227,1);
+border-right: solid rgba(235,44,227,1);
+padding: 10px;
+float: none;
+text-align: left;
+}
+#starting_Score
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid rgba(253,29,29,1);
+float: none;
+text-align: left;
+}
+#sendit{
+	height: 50px;
+	border-radius: 15px;
+	border-color: white;
+	border-style:none;
+	color: white;
+	font-size: 30px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(235,44,227,1) 0%, rgba(253,22,244,1) 40%, rgba(11,204,254,1) 97%, rgba(0,212,255,1) 100%);
+}
+#sendit:hover{
+	height: 50px;
+	border-radius: 15px;
+	border-color: white;
+	border-style: none;
+	color: white;
+	font-size: 30px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(235,44,227,1) 0%, rgba(0,212,255,1) 0%, rgba(11,204,254,1) 3%, rgba(253,22,244,1) 60%);
+}
+.next{
+	width: 300px;
+	height: 50px;
+	border-radius: 15px;
+	border-color: white;
+	border-style: solid;
+	color: white;
+	font-size: 30px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(235,44,227,1) 0%, rgba(253,22,244,1) 40%, rgba(11,204,254,1) 97%, rgba(0,212,255,1) 100%);
+}
+#logi{
+	width: 300px;
+	height: 50px;
+	border-radius: 15px;
+	border-color: white;
+	border-style: solid;
+	color: white;
+	font-size: 30px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(235,44,227,1) 0%, rgba(0,212,255,1) 0%, rgba(11,204,254,1) 3%, rgba(253,22,244,1) 60%);
+}
+#player_question{
+	color: white;
+}
+#player_answer{
+	color: white;
+}

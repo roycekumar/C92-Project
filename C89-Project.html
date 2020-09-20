@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Maths Quiz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="quiz.js"></script>
+<link rel="stylesheet" type="text/css" href="maths_quiz.css">
+
+</head>
+<body>
+    <div class="container">
+    <center>
+		<h1>Math Quiz</h1>
+		<div class="col-lg-4 col-sm-8 col-xs-11 login_div1" id="divi1">
+            <span>
+            <img src="default.png" width="200px">
+            </span>
+			<h3>Player1 Login for the Game</h3>
+			<label>User name:</label>
+            <input type="text" id="player1_name_input" class="form-control" placeholder="player1 Name">
+            <br>
+            <button class="next" onclick="change()">NEXT</button>
+			<br>
+		</div>
+		<br>
+        <br>
+        <div class="col-lg-4 col-sm-8 col-xs-11 login_div2" id="divi2">
+            <img src="default.png" width="200px">
+			<h3>Player2 Login for the Game</h3>
+			<label>User name:</label>
+            <input type="text" id="player2_name_input" class="form-control" placeholder="player2 Name">
+            <br>
+            <button id="logi"class=" btn btn-primary" onclick="login()">LOGIN</button>
+			<br>
+		</div>
+		<br>
+		<br>
+
+    </center>
+</div>
+</body>
+</html>
